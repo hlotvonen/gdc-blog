@@ -36,4 +36,4 @@ Not that I complain! I’ve seen people make amazing things with it from express
 
 <hr />
 
-*This text was originally published in the Glyph Drawing Club User Guide v.2.0.0. in 2019*
+*This text was originally published in the Glyph Drawing Club User Guide v.2.0.0. in 2019.*
