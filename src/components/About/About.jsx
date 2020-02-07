@@ -6,6 +6,8 @@ class About extends Component {
     return (
       <article>
         <h1>GlyphDrawing.Club</h1>
+
+        <p></p>
       </article>
     );
   }

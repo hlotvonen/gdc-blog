@@ -74,6 +74,10 @@ article .anchor svg {
 article table {
   margin-bottom: 1.25rem;
 }
+.gatsby-resp-image-figcaption {
+  text-align: center;
+  font-size: 0.825rem;
+}
 
 article table th,
 article table td {
@@ -100,7 +104,7 @@ article blockquote:before {
   width: 3rem;
   height: 2rem;
   font: 4em/1.08em "BioRhyme", serif;
-  color: #666;
+  color: #555;
   text-align: center;
 }
 article hr {

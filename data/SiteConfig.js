@@ -6,7 +6,7 @@ const config = {
   siteUrl: "https://blog.glyphdrawing.club", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription:
-    "Tips & tricks for GlyphDrawing.Club, and about modular design and text art in general.", // Website description used for RSS feeds/meta description tag.
+    "Blog dedicated to all things GlyphDrawingClub, modular design, ASCII art and text art.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "GlyphDrawing.Club blog RSS feed", // Title of the RSS feed
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
@@ -15,8 +15,8 @@ const config = {
   userName: "Heikki Lotvonen", // Username to display in the author segment.
   userEmail: "hlotvonen@gmail.com", // Email used for RSS feed's author segment
   userLocation: "Helsinki, Finland", // User location to display in the author segment.
-  userAvatar: "/logos/avatar.png", // User avatar to display in the author segment.
-  userDescription: "Test description", // User description to display in the author segment.
+  userAvatar: "/logos/logo-512.png", // User avatar to display in the author segment.
+  userDescription: "No description", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
