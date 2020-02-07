@@ -1,5 +1,108 @@
-.post-meta {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+article {
+  padding: 0.5rem 0;
+}
+article h1,
+article h2 {
+  margin-bottom: 1.25rem;
+}
+article h1.mainTitle {
+  margin: 0;
+}
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  color: #fff146;
+  margin-bottom: 1.25rem;
+  line-height: 1.2;
+}
+article h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+article h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+article h4 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+article h5 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+article em {
+  font-style: oblique;
+}
+article strong {
+  font-weight: bold;
+}
+article ol {
+  list-style: decimal;
+  padding-left: 1.7rem;
+  margin-bottom: 1.25rem;
+}
+article ul {
+  list-style: square;
+  padding-left: 1rem;
+  margin-bottom: 1.25rem;
+}
+article h1#alt-h1,
+article h2#alt-h2 {
+  border-bottom: 1px solid #555;
+}
+article a:link {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #555;
+}
+article a:hover {
+  text-decoration: none;
+}
+article a:link.anchor {
+  text-decoration: none;
+}
+article a:visited {
+  text-decoration-color: #555;
+}
+article .anchor svg {
+  fill: white;
+}
+.gatsby-highlight,
+article table {
+  margin-bottom: 1.25rem;
+}
+
+article table th,
+article table td {
+  padding: 0.5rem;
+  border: 1px solid #555;
+}
+article blockquote {
+  display: block;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #555;
+  padding: 1.5em 0 0.5em;
+  margin: 1.25em 0;
+  position: relative;
+  font-style: oblique;
+}
+article blockquote:before {
+  content: "\201C";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: black;
+  width: 3rem;
+  height: 2rem;
+  font: 4em/1.08em "BioRhyme", serif;
+  color: #666;
+  text-align: center;
+}
+article hr {
+  border: 1px solid #555;
 }

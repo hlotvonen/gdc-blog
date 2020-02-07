@@ -58,12 +58,6 @@ module.exports = {
       }
     },
     {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: config.googleAnalyticsID
-      }
-    },
-    {
       resolve: "gatsby-plugin-nprogress",
       options: {
         color: config.themeColor
@@ -72,7 +66,6 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-catch-links",
-    "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
@@ -138,7 +131,7 @@ module.exports = {
           {
             serialize(ctx) {
               const { rssMetadata } = ctx.query.site.siteMetadata;
-              return ctx.query.allMarkdownRemark.edges.map(edge => ({
+              return ctx.query.allMarkdownRemark.edges.map((edge) => ({
                 categories: edge.node.frontmatter.tags,
                 date: edge.node.fields.date,
                 title: edge.node.frontmatter.title,

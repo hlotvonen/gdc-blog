@@ -1,0 +1,28 @@
+.post-tag-container {
+  font-size: 0.825rem;
+  color: #ec9c04;
+  width: 100%;
+  display: inline;
+}
+.post-tag-container .tag {
+  margin-right: 0.5rem;
+}
+.post-tag-container .tag:hover {
+  margin-right: 0.5rem;
+}
+
+.post-tag-container svg {
+  width: 10px;
+  margin-right: 0.5rem;
+}
+a.tag:link {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: #555;
+}
+a.tag:hover {
+  text-decoration: none;
+}
+a.tag:visited {
+  text-decoration-color: #555;
+}

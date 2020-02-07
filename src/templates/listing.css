@@ -1,16 +1,11 @@
 .listing-container {
   min-height: 100%;
-  min-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
+  flex: 1;
 }
 
 .paging-container {
   min-width: 100%;
-  display: flex;
-  justify-content: space-between;
 }

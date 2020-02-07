@@ -1,0 +1,11 @@
+.post-category-container {
+  margin-right: 1rem;
+  font-size: 0.825rem;
+  color: #ec9c04;
+  width: 100%;
+  display: inline;
+}
+.post-category-container svg {
+  width: 10px;
+  margin-right: 0.5rem;
+}

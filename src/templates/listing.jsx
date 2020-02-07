@@ -17,7 +17,11 @@ class Listing extends React.Component {
 
     return (
       <div className="paging-container">
-        {!isFirstPage && <Link to={prevPage}>Previous</Link>}
+        {!isFirstPage && (
+          <Link to={prevPage}>
+            <button>Previous</button>
+          </Link>
+        )}
         {[...Array(pageCount)].map((_val, index) => {
           const pageNum = index + 1;
           return (
@@ -25,18 +29,21 @@ class Listing extends React.Component {
               key={`listing-page-${pageNum}`}
               to={pageNum === 1 ? "/" : `/${pageNum}/`}
             >
-              {pageNum}
+              <button>{pageNum}</button>
             </Link>
           );
         })}
-        {!isLastPage && <Link to={nextPage}>Next</Link>}
+        {!isLastPage && (
+          <Link to={nextPage}>
+            <button>Next</button>
+          </Link>
+        )}
       </div>
     );
   }
 
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
-
     return (
       <Layout>
         <div className="listing-container">
@@ -68,13 +75,14 @@ export const listingQuery = graphql`
             slug
             date
           }
-          excerpt
+          excerpt(pruneLength: 400)
           timeToRead
           frontmatter {
             title
             tags
+            category
             cover
-            date
+            date(formatString: "MMMM DD, YYYY")
           }
         }
       }

@@ -1,0 +1,35 @@
+aside.sidebar {
+  background: black;
+  flex: 1;
+  padding: 0.5rem 1rem;
+  overflow: hidden;
+}
+aside.sidebar h5 {
+  color: #ec9c04;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+  border-bottom: 1px solid #555;
+}
+aside.sidebar svg.icon {
+  width: 12px;
+  margin-right: 0.5rem;
+}
+aside.sidebar section {
+  margin-bottom: 1.25rem;
+}
+
+aside.sidebar section ul li {
+  padding: 4px 0;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  color: #fff146;
+}
+
+@media (max-width: 800px) {
+  aside.sidebar {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #222;
+  }
+}

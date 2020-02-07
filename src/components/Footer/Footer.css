@@ -1,25 +1,14 @@
 .footer {
-  justify-content: center;
-  align-content: center;
-  padding: 10px 5px 5px;
-}
-
-.notice-container {
+  padding: 0.5rem;
+  background: black;
+  border-top: 1px solid #555555;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  margin-top: 25px;
+  margin-top: 1rem;
 }
 
-@media (max-width: 640px - 1px) {
-  .notice-container {
-    justify-content: space-around;
+@media (max-width: 800px) {
+  .footer {
+    margin-top: 0;
   }
-}
-
-.notice-container h4 {
-  text-align: center;
-  margin: 0;
 }

@@ -1,3 +1,7 @@
+@import "../../node_modules/reset-css/reset.css";
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+@import url("https://fonts.googleapis.com/css?family=BioRhyme:200&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -11,16 +15,86 @@ body {
   padding: 0;
   min-height: 100%;
   min-width: 100%;
+  background: black;
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.2em;
+  color: #c8c8c8;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
 }
 
-#___gatsby #gatsby-focus-wrapper {
-  min-height: 100vh;
-  min-width: 100vw;
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff146;
+  letter-spacing: -0.2px;
+  font-family: "BioRhyme", serif;
+  line-height: 1.2em;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
+
+button {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.16, rgb(229, 125, 3)),
+    color-stop(0.79, rgb(144, 74, 7))
+  );
+  background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(229, 125, 3) 16%,
+    rgb(144, 74, 7) 79%
+  );
+  background-image: linear-gradient(
+    to top,
+    rgb(229, 125, 3) 16%,
+    rgb(144, 74, 7) 79%
+  );
+  padding: 3px;
+  border: 1px solid #ec9c04;
+  color: white;
+  text-decoration: none;
+  margin-right: 3px;
+  cursor: pointer;
 }
 
 .layout-container {
-  min-height: 100vh;
-  min-width: 100vw;
   display: flex;
-  padding: 20px;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  flex: 1;
+}
+main {
+  padding: 0 1.2rem;
+  flex: 3;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .main-container {
+    flex-direction: column-reverse;
+  }
 }

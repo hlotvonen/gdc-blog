@@ -1,0 +1,35 @@
+header.header {
+  background: black;
+  display: flex;
+  padding: 1rem 0 0 0;
+}
+header.header .spacer {
+  flex: 1;
+  padding: 1rem;
+}
+header.header .header-content {
+  padding: 0 1.2em;
+  flex: 3;
+  display: flex;
+}
+header.header svg {
+  height: 150px;
+}
+
+@media (max-width: 800px) {
+  header.header {
+    justify-content: center;
+    align-items: center;
+  }
+  header.header .spacer {
+    display: none;
+  }
+  header.header .header-content {
+    padding: 0;
+    flex: 0;
+  }
+  header.header svg {
+    width: 90vw;
+    height: auto;
+  }
+}
