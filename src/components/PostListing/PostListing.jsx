@@ -38,10 +38,15 @@ class PostListing extends React.Component {
               <PostCategory category={post.category} />
               <PostTags tags={post.tags} />
             </div>
-            <p>{post.excerpt}</p>
-            <Link className="readMore" to={post.path}>
-              <button>More</button>
-            </Link>
+            <div className="listing-image">
+              <img src={post.cover} />
+            </div>
+            <div className="listing-text">
+              <p>{post.excerpt}</p>
+              <Link className="readMore" to={post.path}>
+                <button>More</button>
+              </Link>
+            </div>
           </div>
         ))}
       </div>
