@@ -23,14 +23,14 @@ One could say Glyph Drawing Club is just a vector drawing program (which it is),
 
 ## Getting started with the basics
 
-Let's get started! Open glyphdrawing.club. On the left side of the page is your canvas, and on the right sidebar are all your tools. To get started:
+Let's get started! Open [glyphdrawing.club](https://glyphdrawing.club/). On the left side of the page is your canvas, and on the right sidebar are all your tools. To get started:
 
 1. Select the **Draw tab** from the sidebar if it's not already selected
-2. Click` on any glyph under Glyph selection. You can navigate the pages by clicking the "Next" and "Previous" buttons or with the number input.
-3. Press \`q\` to draw.
-4. Move around the canvas with \`arrow keys\`.
-5. Press \`f\` to flip, \`r\` to rotate or \`i\` to invert a glyph.
-6. Erase a glyph by pressing \`space bar\` or \`e\`
+2. `Click` on any glyph under Glyph selection. You can navigate the pages by clicking the "Next" and "Previous" buttons or with the number input.
+3. Press `q` to draw.
+4. Move around the canvas with `arrow keys`.
+5. Press `f` to flip, `r` to rotate or `i` to invert a glyph.
+6. Erase a glyph by pressing `space bar` or `e`
 
 And that's it! By placing shapes next to each other you can start creating your mosaic: be it custom type, illustration, pattern etc. With these basics you can create anything and everything, but to speed up your workflow I recommend familiarising yourself with the rest of features and keyboard shortcuts.
 
@@ -48,22 +48,22 @@ If you want to start over and reset the canvas completely, press the "Empty Canv
 
 There are two main ways to move around the canvas:
 
-1. Press \`Arrow keys\` to move the red cursor
+1. Press `Arrow keys` to move the red cursor
 
-   * You can also press \`Alt+Arrow keys\` to move 5 cells at a time
-2. \`Left click\` a cell
+   * You can also press `Alt+Arrow keys` to move 5 cells at a time
+2. `Left click` a cell
 
 ## Undo / Redo
 
 The amount of undos is limited, so don't rely on it too much!
 
-* Press \`Cmd or Ctrl + z\` to undo last action on the canvas
-* Press \`Cmd or Ctrl + Shift + z\` to undo last action on the canvas
+* Press `Cmd or Ctrl + z` to undo last action on the canvas
+* Press `Cmd or Ctrl + Shift + z` to undo last action on the canvas
 
 ## Preview image
 
-* Press and hold \`p\` to preview your image
-* Or press \`h\` to hide and show the grid
+* Press and hold `p` to preview your image
+* Or press `h` to hide and show the grid
 
 ## Area selection tools
 
@@ -72,45 +72,45 @@ Getting familiar with area selection tools and how to use them is the fastest wa
 ### Create a selection
 
 1. Move the red cursor to the point where you want to start the selection
-2. Press \`Shift + s\` to start a selection area.
+2. Press `Shift + s` to start a selection area.
 3. Use the arrow keys and move the red cursor to the point where you want to end the selection.
-4. Press \`Shift + s\` again to lock in the selection.
-5. Alternatively, you can select an area with your mouse by holding \`Shift\` and holding \`left click\` down on your mouse and dragging out an area.
-6. You can also select the whole canvas by pressing \`Shift + a\`
+4. Press `Shift + s` again to lock in the selection.
+5. Alternatively, you can select an area with your mouse by holding `Shift` and holding `left click` down and dragging out an area.
+6. You can also select the whole canvas by pressing `Shift + a`
 
 ### Deselect
 
-* To deselect an area press \`Shift + d\`
+* To deselect an area press `Shift + d`
 
 ### Copy & paste
 
-* After you've made a selection (as indicated by the red marching ants), move your cursor to a new spot on the canvas and press \`Shift + c\` to paste in the selected area. The paste starts from the top-left corner of your selected area.
+* After you've made a selection (as indicated by the red marching ants), move your cursor to a new spot on the canvas and press `Shift + c` to paste in the selected area. The paste starts from the top-left corner of your selected area.
 * Note: Pasting a selection will erase anything in its path. If you want to paste something on top of another area that has glyphs in it, make sure they are on different layers.
 
 ### Transform glyphs in the selected area
 
-* Press \`Shift + m\` to **mirror** selected area (on x-axis)
-* Press \`Shift + f\` to **flip** selected area (on y-axis)
-* Press \`Shift + i\` to **invert** all the glyphs in the selected area
-* Press \`Shift + y\` to **rotate glyphs individually** in the selected area
-* Press \`Shift + u\` to **flip glyphs individually** in the selected area
+* Press `Shift + m` to **mirror** selected area (on x-axis)
+* Press `Shift + f` to **flip** selected area (on y-axis)
+* Press `Shift + i` to **invert** all the glyphs in the selected area
+* Press `Shift + y` to **rotate glyphs individually** in the selected area
+* Press `Shift + u` to **flip glyphs individually** in the selected area
 
 **Note:** the following transformations only work if your selection is a **square** (for example 3 x 3). You can make sure if the selection is square by the small "s" that appears inside the red cursor, or by checking the top right corner of the canvas area that says "selection x:# y:#".
 
-* Press \`Shift + r\` to **rotate the selected area.**
-* Press \`Shift + t\` to **transpose selected area**. Transposing means that each glyph will be mirrored on a diagonal axis (axis goes from top-left to bottom-right of your selected area).
+* Press `Shift + r` to **rotate the selected area.**
+* Press `Shift + t` to **transpose selected area**. Transposing means that each glyph will be mirrored on a diagonal axis (axis goes from top-left to bottom-right of your selected area).
 
 ### Fill & empty selected area
 
-* Press \`Shift + q\` to **fill** selected area with the selected glyph
-* Press \`Shift + e\` to **empty** selected area
+* Press `Shift + q` to **fill** selected area with the selected glyph
+* Press `Shift + e` to **empty** selected area
 
 ### Move selected area
 
-* Press \`Shift + h\` to move selected area **left**
-* Press \`Shift + j\` to move selected area **down**
-* Press \`Shift + k\` to move selected area **up**
-* Press \`Shift + l\` to move selected area **right**
+* Press `Shift + h` to move selected area **left**
+* Press `Shift + j` to move selected area **down**
+* Press `Shift + k` to move selected area **up**
+* Press `Shift + l` to move selected area **right**
 
 **Note:** Moving a selected area will erase any glyph in its path on the same layer. If you want to move something on top of another area that has glyphs in it, make sure they are on different layers.
 
@@ -160,9 +160,9 @@ Sometimes it gets hard to see what is what on each layer, so you can press the "
 
 ### Keyboard shortcuts with layers
 
-If you want to affect **all layers** with a keyboard shortcut you can press \`ctrl + normal shortcut\`. All of the aforementioned keyboard shortcuts work this way, including the selection area transformations. For example:
+If you want to affect **all layers** with a keyboard shortcut you can press `ctrl + any shortcut`. All of the aforementioned keyboard shortcuts work this way, including the selection area transformations. For example:
 
-* If you want to rotate a cell that has multiple glyphs on multiple layers, you can press \`ctrl + r\` instead of just \`r\`.
+* If you want to rotate a cell that has multiple glyphs on multiple layers, you can press `ctrl + r` instead of just `r`.
 
 ## Using glyph sets
 
@@ -170,11 +170,11 @@ Sometimes you want to use a limited amount of glyphs, but it gets annoying to co
 
 ### Creating and using a glyph set
 
-* Press \`m\` to activate glyph mapping or click the "map keys" checkbox under "Glyph sets" section in the draw tab.
+* Press `m` to activate glyph mapping or click the "map keys" checkbox under "Glyph sets" section in the draw tab.
 * Select a glyph from the "Glyph selection"
-* Press any number from \`1 to 10\` on your keyboard. This will "map" the selected glyph into that number key.
-* Press \`m\` again to stop the mapping or click the "map keys" checkbox again.
-* Press number keys from \`1 to 10\` that has a glyph mapped into it. This will insert the mapped glyph onto the canvas.
+* Press any number from `1 to 10` on your keyboard. This will "map" the selected glyph into that number key.
+* Press `m` again to stop the mapping or click the "map keys" checkbox again.
+* Press number keys from `1 to 10` that has a glyph mapped into it. This will insert the mapped glyph onto the canvas.
 
 **Note:** You can create multiple glyph sets by clicking the "Add" button, select previous glyph sets by clicking the numbered buttons, or delete selected glyph set with the "Delete" button.
 
@@ -182,9 +182,9 @@ Sometimes you want to use a limited amount of glyphs, but it gets annoying to co
 
 Glyph Drawing Club also includes a simple "paint mode" for drawing with the mouse. Paint mode is useful especially when sketching or if you want the red cursor to follow your mouse cursor.
 
-* Press \`b\` to activate paint mode, or click the Paint mode checkbox under "MODES & TOOLS" section in the draw tab.
+* Press `b` to activate paint mode, or click the Paint mode checkbox under "MODES & TOOLS" section in the draw tab.
 * When paint mode is activated, the red cursor follows your mouse cursor.
-* "Paint" by clicking on the canvas or holding down \`Left click\`
+* "Paint" by clicking on the canvas or holding down `Left click`
 
 ## Glyph offsets and scaling
 
@@ -209,7 +209,7 @@ Even though Glyph Drawing Club has a grid, you are not limited to the grid lines
 ### Select and use foreground colors
 
 * Select foreground color by **clicking** on a color in the color palette. Currently selected color is indicated by the **red** border around it. Glyphs that are inserted on the canvas now use that color (index) as their foreground color.
-* Press \`c\` to color glyph with the selected foreground color
+* Press `c` to color glyph with the selected foreground color
 * Modify selected color by using the R, G, B sliders.
 * Numbers on top of the colors indicate which layer in the current cell uses which color.
 * If using a limited color palette you can check which colors are currently in use on the canvas by clicking the "Show only used colors" checkbox.
@@ -218,7 +218,7 @@ Even though Glyph Drawing Club has a grid, you are not limited to the grid lines
 
 * Each cell can also have a background color, which is under all the other layers.
 * Select background color by **right clicking** on a color in the color palette. Currently selected color is indicated by the **blue** border around it. Glyphs that are inserted on the canvas now use that color (index) as their background color.
-* Press \`w\` to color cell with the selected background color.
+* Press `w` to color cell with the selected background color.
 
 ### Create cohesive color palette
 
