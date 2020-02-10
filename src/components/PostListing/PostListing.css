@@ -29,3 +29,8 @@
   width: 100%;
   padding: 0.2rem 0 0.5rem 0;
 }
+@media (max-width: 600px) {
+  .listing-image {
+    display: none;
+  }
+}

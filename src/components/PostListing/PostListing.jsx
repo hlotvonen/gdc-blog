@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import PostTags from "../PostTags/PostTags";
 import PostDate from "../PostDate/PostDate";
 import PostCategory from "../PostCategory/PostCategory";
+import config from "../../../data/SiteConfig";
 import "./PostListing.css";
 
 class PostListing extends React.Component {
@@ -39,7 +40,11 @@ class PostListing extends React.Component {
               <PostTags tags={post.tags} />
             </div>
             <div className="listing-image">
-              <img src={post.cover} />
+              <img
+                src={`${config.siteUrl}/${post.cover}`}
+                alt={post.title}
+                title={post.title}
+              />
             </div>
             <div className="listing-text">
               <p>{post.excerpt}</p>
