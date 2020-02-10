@@ -1,7 +1,7 @@
 ---
 title: Usage tutorial for Glyph Drawing Club
-date: 2020-02-07T22:45:57.497Z
-cover: assets/cover-otoogdc.jpg
+date: 2020-02-09T23:45:00.000Z
+cover: assets/tutorial-cover.png
 slug: usage-tutorial-for-glyph-drawing-club
 category: tutorial
 tags:
@@ -10,6 +10,8 @@ tags:
 ## What is Glyph Drawing Club?
 
 Glyph Drawing Club is a free online modular design and text art tool, suitable for creating custom type design, illustrations, patterns and more. The editor is based on an adjustable grid into which users can “draw” with a set of geometric patterns or with any typographic symbol from any font.
+
+![Welcome to Glyph Drawing Club!](assets/gdc-intro.png "Welcome to Glyph Drawing Club!")
 
 Creating images with Glyph Drawing Club requires a lot of precision and relies heavily on keyboard interaction and shortcuts instead of just the mouse. Learning how to use Glyph Drawing Club is simple and you can jump right in without a lengthy tutorial, but if you want to achieve faster workflow and higher precision it's important to familiarise yourself with the program, its various features and shortcuts. This tutorial tries to cover everything there is to know about how to use Glyph Drawing Club.
 
@@ -21,9 +23,13 @@ Working with constraints is what drives the creative process when doing any type
 
 One could say Glyph Drawing Club is just a vector drawing program (which it is), but it's this method and process of creating that makes it unique and exciting. Glyph Drawing Club is inspired by old skool ASCII art editors such as PabloDraw and utilises aspects of them such as keyboard heavy workflow, a limited selection of symbols and a uniform grid while bringing an improved workflow, customisation and openness to the creative process making it more fun and versatile.
 
+![Illustration made with Glyph Drawing Club. As you can see, the image is made of tiny modular shapes.](assets/ukkelijalintu_final.png "Illustration made with Glyph Drawing Club. As you can see, the image is made of tiny modular shapes.")
+
 ## Getting started with the basics
 
-Let's get started! Open [glyphdrawing.club](https://glyphdrawing.club/). On the left side of the page is your canvas, and on the right sidebar are all your tools. To get started:
+Let's get started! Open [glyphdrawing.club](https://glyphdrawing.club/). On the left side of the page is your canvas, and on the right sidebar are all your tools. 
+
+![1: Inserted glyph 2: Flipped 3: Rotated 4: Inverted 5: Combined techniques](assets/simple.png "1: Inserted glyph 2: Flipped 3: Rotated 4: Inverted 5: Combined techniques")
 
 1. Select the **Draw tab** from the sidebar if it's not already selected
 2. `Click` on any glyph under Glyph selection. You can navigate the pages by clicking the "Next" and "Previous" buttons or with the number input.
@@ -37,6 +43,8 @@ And that's it! By placing shapes next to each other you can start creating your 
 ### Important note about Tesserae
 
 The default font Tesserae 4x4 is specifically designed to be used with the Glyph Drawing Club. It's based on a 4 by 4 grid, meaning that all the shapes in the font can connect to each other from one or more of the 4 segment points on each side, either perpendicularly or diagonally. This allows you to place glyphs next to each other creating one seamless shape. I recommend exploring different shapes, rotating, inverting and flipping them and see how they connect to other shapes.
+
+![Zoomed in view of how a single shape is constructed.](assets/tesserae-grid.png "Zoomed in view of how a single shape is constructed.")
 
 ## Change the size of the canvas
 
@@ -71,6 +79,8 @@ Getting familiar with area selection tools and how to use them is the fastest wa
 
 ### Create a selection
 
+![Steps for selecting an area](assets/selecting-area.png "Steps for selecting an area")
+
 1. Move the red cursor to the point where you want to start the selection
 2. Press `Shift + s` to start a selection area.
 3. Use the arrow keys and move the red cursor to the point where you want to end the selection.
@@ -88,6 +98,8 @@ Getting familiar with area selection tools and how to use them is the fastest wa
 * Note: Pasting a selection will erase anything in its path. If you want to paste something on top of another area that has glyphs in it, make sure they are on different layers.
 
 ### Transform glyphs in the selected area
+
+![Different ways to transform your selection](assets/area-transformations.png "Different ways to transform your selection")
 
 * Press `Shift + m` to **mirror** selected area (on x-axis)
 * Press `Shift + f` to **flip** selected area (on y-axis)
@@ -128,13 +140,15 @@ Your canvas is automatically saved into your browsers local storage, which means
 * You can export your canvas either as PNG or SVG by clicking the "Export" buttons.
 * You can specify the resolution of the PNG file with the "Size" input field. The default value is 5, which is 5 times the actual size of your canvas.
 
-### Licence
+### License
 
 You are free to use anything you make with GlyphDrawingClub anywhere (private or commercial), without credits or licensing info.
 
 ## Working with layers
 
 Layers work a bit differently in Glyph Drawing Club than on other editors. Rather than the whole canvas sharing a layer, each individual cell has its own predefined amount of layers. Each cell has 4 layers you can place a glyph on.
+
+![This image is done on a 10x20 canvas, but with layers you can create intricate details](assets/layers.png "This image is done on a 10x20 canvas, but with layers you can create intricate details")
 
 Layers come in handy in many situations. To name the most common cases:
 
@@ -197,6 +211,8 @@ Even though Glyph Drawing Club has a grid, you are not limited to the grid lines
 **Note:** Sometimes if you use a lot of offsets and scaling it's hard to see which cell the glyph is actually assigned to. One way to figure out what each cell holds is to check the Layers section which shows the contents of each layer.
 
 **Note #2:** Sometimes if you offset or scale a glyph, it appears "under" or "above" another glyph next to it, when you want it to be the other way around. This happens usually if you move a glyph down or to the right. One way to avoid this is to move the glyph to a cell below the glyphs you want to overlap and offset to the left and up instead.
+
+![Example how using scaled up glyph can create curves](assets/super-scaling.png "Example how using scaled up glyph can create curves")
 
 ## Incorporating color
 
