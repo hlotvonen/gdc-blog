@@ -37,8 +37,8 @@ const config = {
   ],
   copyright:
     "Anti-Copyright! Reprint freely, in any manner desired, even without naming the source.", // Copyright string for the footer of the website and RSS feed.
-  themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#e0e0e0" // Used for setting manifest background color.
+  themeColor: "#000000", // Used for setting manifest and progress theme colors.
+  backgroundColor: "#000000" // Used for setting manifest background color.
 };
 
 // Validate
