@@ -196,7 +196,7 @@ Sometimes you want to use a limited amount of glyphs, but it gets annoying to co
 
 Glyph Drawing Club also includes a simple "paint mode" for drawing with the mouse. Paint mode is useful especially when sketching or if you want the red cursor to follow your mouse cursor.
 
-* Press `b` to activate paint mode, or click the Paint mode checkbox under "MODES & TOOLS" section in the draw tab.
+* Click the Paint mode checkbox under "MODES & TOOLS" section in the draw tab.
 * When paint mode is activated, the red cursor follows your mouse cursor.
 * "Paint" by clicking on the canvas or holding down `Left click`
 
