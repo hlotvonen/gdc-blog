@@ -225,16 +225,18 @@ Even though Glyph Drawing Club has a grid, you are not limited to the grid lines
 ### Select and use foreground colors
 
 * Select foreground color by **clicking** on a color in the color palette. Currently selected color is indicated by the **red** border around it. Glyphs that are inserted on the canvas now use that color (index) as their foreground color.
-* Press `c` to color glyph with the selected foreground color
+* Press `v` to color glyph with the selected foreground color (`Shift+v` for area selection)
 * Modify selected color by using the R, G, B sliders.
 * Numbers on top of the colors indicate which layer in the current cell uses which color.
 * If using a limited color palette you can check which colors are currently in use on the canvas by clicking the "Show only used colors" checkbox.
+* You can also use a foreground coloring brush by ticking the "FG" checkbox in the coloring tab.
 
-### Select and use foreground colors
+### Select and use background colors
 
 * Each cell can also have a background color, which is under all the other layers.
 * Select background color by **right clicking** on a color in the color palette. Currently selected color is indicated by the **blue** border around it. Glyphs that are inserted on the canvas now use that color (index) as their background color.
-* Press `w` to color cell with the selected background color.
+* Press `b` to color cell with the selected background color (`Shift+b` for area selection).
+* You can also use a background coloring brush by ticking the "BG" checkbox in the coloring tab.
 
 ### Create cohesive color palette
 
