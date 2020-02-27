@@ -11,7 +11,7 @@ Ever since I started making ASCII a few years back with [PabloDraw](http://picoe
 
 The reason for that is probably because ASCII and ANSI editors such as PabloDraw didn't have any option to load custom fonts, and PabloDraw wasn't open sourced [until a few years ago](https://github.com/cwensley/pablodraw), so adding that support was impossible.
 
-But then, last year [Andy Herbert](https://github.com/andyherbert) published Moebius, an **amazing** ANSI & ASCII editor made with modern day javascript and built with electron. While the official version also doesn't have support for "non-standard" ASCII or ANSI fonts, it's [open source](https://github.com/blocktronics/moebius), which meant that adding support for custom fonts andnew fonts was finally possible. 
+But then, last year [Andy Herbert](https://github.com/andyherbert) published Moebius, an **amazing** ANSI & ASCII editor made with modern day javascript and built with electron. While the official version also doesn't have support for "non-standard" ASCII or ANSI fonts, it's [open source](https://github.com/blocktronics/moebius), which meant that adding support for custom fonts and new fonts was finally possible. 
 
 ![Character set with an italic font in Moebius](assets/moebius.png "Character set with an italic font in Moebius")
 
@@ -19,7 +19,7 @@ Below are the download links to the modified Moebius application with custom fon
 
 * Linux - [Debian Package](https://drive.google.com/open?id=1IdRCGecWurMS3_Sj0CLtdDGq55yHKuPX) as a .deb package file
 * OS X - [Apple MacOS X Package](https://drive.google.com/open?id=1-MxkVbHSABmrn8ZHT-XvdO1V8DxASVf2) as a .dmg file
-* Windows - [Microsoft Windows System Installer](https://drive.google.com/open?id=1nR4ilyRxfvJaU6Vf7E9S-dHBAy-t7AAm)
+* Windows - [Microsoft Windows System Installer](https://drive.google.com/open?id=1JwOEyrQucE8zONcqnJyHFwuoXkxWGvNK)
 * Windows - [Microsoft Windows Portable EXE](https://drive.google.com/open?id=1nR4ilyRxfvJaU6Vf7E9S-dHBAy-t7AAm) file
 * Source code: [Github](https://github.com/hlotvonen/moebius-customfont)
 
@@ -62,14 +62,14 @@ In addition to creating the Ultimate Oldschool PC Font Pack, VileR also has made
 
   * If you are using Mac, I recommend placing Fontraption in your /username/ folder. For me it's in "~/heikkilotvonen/DOSBOX/FONTRA", then it's easier for you to mount the correct folder in DosBox. I also recommend renaming the Fontraption folder from "fontraption_v1.0" to FONTRA (DOS doesn't like file or folder names longer than 6 characters). If you use these steps it's easier for you to mount & run the program in DosBox the following way:
 
-  ```
+  ```shell
   mount C ~/DOSBOX/FONTRA
   C:
   FRAPT.COM
   ```
-* To Preview fonts from The Ultimate Oldschool PC Font Pack, in Fontraption press `CTRL+L` or `F3` to Load, then press `Tab , navigate to the FONTS folder with`arrow keys`, hit`enter`to enter the folder, and then open the fonts by hitting`enter`.
+* To Preview fonts from The Ultimate Oldschool PC Font Pack, in Fontraption press `CTRL+L` or `F3` to Load, then press `Tab` , navigate to the FONTS folder with `arrow keys`, hit `enter` to enter the folder, and then load the font by hitting `enter`.
 * Using the program is really simple, but it's worth also checking out this video tutorial: <https://www.youtube.com/watch?v=aEGT7A5RVRU>
-* After you've made your own font, simply save the file in Fontraption (F2), and then you can open it with Moebius using the instructions above.
+* After you've made your own font, simply save the file in Fontraption with `F2` or `CTRL+S` , and then you can open it with Moebius using the instructions above.
 
 # Endnote
 
