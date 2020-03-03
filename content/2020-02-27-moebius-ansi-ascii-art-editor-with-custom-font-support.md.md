@@ -17,10 +17,7 @@ But then, last year [Andy Herbert](https://github.com/andyherbert) published Moe
 
 Below are the download links to the modified Moebius application with custom font support, so if you want to create ASCII or ANSI art with your own custom made bitmap font or with one of the hundreds of fonts from [VileR's Ultimate Oldschool PC Font Pack](https://int10h.org/blog/2016/01/the-ultimate-oldschool-pc-font-pack-v10/), you can do it with this version:
 
-* Linux - [Debian Package](https://drive.google.com/open?id=1IdRCGecWurMS3_Sj0CLtdDGq55yHKuPX) as a .deb package file
-* OS X - [Apple MacOS X Package](https://drive.google.com/open?id=1-MxkVbHSABmrn8ZHT-XvdO1V8DxASVf2) as a .dmg file
-* Windows - [Microsoft Windows System Installer](https://drive.google.com/open?id=1JwOEyrQucE8zONcqnJyHFwuoXkxWGvNK)
-* Windows - [Microsoft Windows Portable EXE](https://drive.google.com/open?id=1nR4ilyRxfvJaU6Vf7E9S-dHBAy-t7AAm) file
+* Download packages [Windows, Linux, Mac](https://drive.google.com/open?id=1ggclfhvQnwala1Y5xMo64hyoQsEvMUem)
 * Source code: [Github](https://github.com/hlotvonen/moebius-customfont)
 
 All credits go to the creator of Moebius, [Andy Herbert](http://www.andyh.org/moebius/), and to [VileR](https://int10h.org/) for the Ultimate Oldschool PC Font Pack. 
@@ -39,16 +36,17 @@ If you have suggestions for adding more fonts, let me know! You can email me at 
 1. Install Moebius on your computer from one of the packages above.
 2. Open a new file
 3. Go to View -> Load Custom Font... -> Choose a bitmap font file ("fontfile.F16" for example)
+4. Save your files as XBIN (instead of default ANS) to work on them later.
 
 **Notes:** 
 
 * Moebius supports any bitmap font file with extensions "F06", "F07", "F08", "F10", "F12", "F14", "F16", "F18", "F19", "F20", "F22", "F24", "F26", "F28", "F30" and "F32".
 * Large scale fonts (files that have extensions .F32 for example) break the UI a little bit but should still be usable! Optimal size is .F16
 * The Ultimate Oldschool PC Font Pack is just a huge list of fonts, not organised in any way... so I recommend checking them out first with Fontraption (check below)
-* You should save your files as .ans files. When you open an .ans file that uses a custom font it should prompt to load the correct font file also. I suggest naming your files with the custom font tile that you are using.
+* You should save your files as .XB (XBIN) files.
 * The custom font option is not thoroughly tested, so let me know if you find any bugs.
 * The custom font option is also not tested when doing a joint session with someone else over network connection, so be wary!
-* And of course, when you save files as .ans it doesn't include the font data... so uploading your .ans files to the internet or elsewhere will break the display because the font file is not included. If you want to share .ans files with custom fonts, I suggest zipping the .ans file and the font file. Or if you use a font from the Ultimate Oldschool PC Font Pack, make sure you are both using this version of Moebius.
+* If you open an XBIN file, then change the font, you can go back to the original font present in the XBIN by View -> Reset to default font...
 
 # How to create your own custom bitmap fonts and preview fonts from the Ultimate Pack
 
