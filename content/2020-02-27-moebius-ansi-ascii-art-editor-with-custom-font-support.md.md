@@ -7,13 +7,17 @@ category: editor
 tags:
   - ascii&ansi fonts
 ---
-Ever since I started making ASCII a few years back with [PabloDraw](http://picoe.ca/products/pablodraw/), I wished that I could modify the fonts or use other fonts than the "standard" IBM PC or Amiga fonts. There are *hundreds* if not thousands of interesting oldschool bitmap fonts from strange vintage pc clones and other machines or made by bitmap font hobbyists, all packed with their own weird little quirks and characteristics. Sadly most of them never saw the light in any serious ASCII or ANSI reproduction (correct me if I'm wrong).
+Ever since I started making ASCII a few years back with [PabloDraw](http://picoe.ca/products/pablodraw/) I wished that I could modify the fonts or use other fonts than the "standard" IBM PC or Amiga fonts, just to make some small modifcations to the letters or shapes, or to create entirely new text art fonts. 
 
-The reason for that is probably because ASCII and ANSI editors such as PabloDraw didn't have any option to load custom fonts, and PabloDraw wasn't open sourced [until a few years ago](https://github.com/cwensley/pablodraw), so adding that support was impossible.
+![ANSI with modified font: The Core by Raider (Shade) https://16colo.rs/pack/shade5/RD-CORE1.XB](assets/RD-CORE1.XB.png "ANSI with modified font: The Core by Raider (Shade) https://16colo.rs/pack/shade5/RD-CORE1.XB")
 
-But then, last year [Andy Herbert](https://github.com/andyherbert) published Moebius, an **amazing** ANSI & ASCII editor made with modern day javascript and built with electron. While the official version also doesn't have support for "non-standard" ASCII or ANSI fonts, it's [open source](https://github.com/blocktronics/moebius), which meant that adding support for custom fonts and new fonts was finally possible. 
+Digging into the archives, I realized that modifying fonts *was* actually possible back in the day in some obscure oldschool DOS based ANSI/ASCII editors such as the [Empathy ANSI editor](http://artscene.textfiles.com/viewers/dos/). These programs probably never took though off because files with modified fonts had to be saved as basically screen dump data, rather than as *text*, so you had to have a specific program or system to properly decode and display these files. Nonetheless there are [some interesting artwork made with modified fonts](https://16colo.rs/tags/content/custom%20font), but the amount (70+) is minuscule compared to regular ANSI & ASCII art of which there are tens of thousands.
 
-![Character set with an italic font in Moebius](assets/moebius.png "Character set with an italic font in Moebius")
+On top of modified fonts, there are also thousands of interesting oldschool bitmap fonts from strange vintage pc clones and other machines or made by bitmap font hobbyists, all packed with their own weird little quirks and characteristics. Sadly most of them never saw the light in any serious ASCII or ANSI reproduction.
+
+My main problem was that modern GUI based ASCII and ANSI editors such as PabloDraw don't have the possibility to load or modify fonts. Fortunately, last year [Andy Herbert](https://github.com/andyherbert) published Moebius, an **amazing** ANSI & ASCII editor made with modern day javascript. While the official version also doesn't have support for "non-standard" ASCII or ANSI fonts, it's [open source](https://github.com/blocktronics/moebius), which meant that I could add support for custom fonts myself. 
+
+![Character set from "fire's cool! yeah!" by "agent_42" https://16colo.rs/pack/cia-50-a/42_FIRE.ADF](assets/Screen Shot 2020-03-10 at 19.27.20.png "Character set from \"fire's cool! yeah!\" by \"agent_42\" https://16colo.rs/pack/cia-50-a/42_FIRE.ADF")
 
 Below are the download links to the modified Moebius application with custom font support, so if you want to create ASCII or ANSI art with your own custom made bitmap font or with one of the hundreds of fonts from [VileR's Ultimate Oldschool PC Font Pack](https://int10h.org/blog/2016/01/the-ultimate-oldschool-pc-font-pack-v10/), you can do it with this version:
 
@@ -47,6 +51,8 @@ If you have suggestions for adding more fonts, let me know! You can email me at 
 * The custom font option is not thoroughly tested, so let me know if you find any bugs.
 * The custom font option is also not tested when doing a joint session with someone else over network connection, so be wary!
 * If you open an XBIN file, then change the font, you can go back to the original font present in the XBIN by View -> Reset to default font...
+* You can also export the font used from the file from View -> Export Font...
+* You can also share your artwork online (for a limited time) at [16colo.rs](https://16colo.rs). Just go File -> Share Online (XBIN)
 
 # How to create your own custom bitmap fonts and preview fonts from the Ultimate Pack
 
