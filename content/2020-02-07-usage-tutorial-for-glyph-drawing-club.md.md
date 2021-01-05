@@ -56,7 +56,7 @@ If you want to start over and reset the canvas completely, press the "Empty Canv
 
 There are two main ways to move around the canvas:
 
-1. Press `Arrow keys` to move the red cursor
+1. Press `Arrow keys` or `WASD` to move the red cursor
 
    * You can also press `Alt+Arrow keys` to move 5 cells at a time
 2. `Left click` a cell
@@ -77,7 +77,7 @@ The amount of undos is limited, so don't rely on it too much!
 
 Getting familiar with area selection tools and how to use them is the fastest way to speed up your workflow. I highly recommend using these and memorising the shortcuts.
 
-### Create a selection
+### Select an area
 
 ![Steps for selecting an area](assets/selecting-area.png "Steps for selecting an area")
 
@@ -96,6 +96,7 @@ Getting familiar with area selection tools and how to use them is the fastest wa
 
 * After you've made a selection (as indicated by the red marching ants), move your cursor to a new spot on the canvas and press `Shift + c` to paste in the selected area. The paste starts from the top-left corner of your selected area.
 * Note: Pasting a selection will erase anything in its path. If you want to paste something on top of another area that has glyphs in it, make sure they are on different layers.
+* If you want to use a glyph already on the canvas but can't find it from the glyph list, you can move over the glyph and press `c`.
 
 ### Transform glyphs in the selected area
 
@@ -162,6 +163,7 @@ Layers come in handy in many situations. To name the most common cases:
 
 * Select the Draw tab
 * Select the layer you want to place glyphs in by clicking on the numbered radio buttons below the "Layers" section
+* You can also select layers with `,` and `.` hotkeys.
 
 ### Moving glyphs from one layer to another
 
@@ -208,7 +210,7 @@ Even though Glyph Drawing Club has a grid, you are not limited to the grid lines
 * With "Glyph offset X" and "Glyph offset Y" you can move or shift the glyph in x and y -axis, while still technically assigned to the cell. The amount the glyph is shifted is 1/8th of the width of the glyph.
 * Press "Reset to default" to reset a glyph into its default state, removing all offsets, scaling in addition to rotation, flipping, inversion.
 
-**Note:** Sometimes if you use a lot of offsets and scaling it's hard to see which cell the glyph is actually assigned to. One way to figure out what each cell holds is to check the Layers section which shows the contents of each layer.
+**Note:** Sometimes if you use a lot of offsets and scaling it's hard to see which cell the glyph is actually assigned to. You can `alt+click` on a shape to move your cursor to the cell it's placed on. 
 
 **Note #2:** Sometimes if you offset or scale a glyph, it appears "under" or "above" another glyph next to it, when you want it to be the other way around. This happens usually if you move a glyph down or to the right. One way to avoid this is to move the glyph to a cell below the glyphs you want to overlap and offset to the left and up instead.
 
@@ -216,7 +218,7 @@ Even though Glyph Drawing Club has a grid, you are not limited to the grid lines
 
 ## Incorporating color
 
-* Colors can be used from the Color tab
+* Colors can be used from the Color tab or by holding down `x`
 * Each **layer** can have a foreground color and each **cell** can have a background color
 * Colors are "indexed", meaning that if you use a color, it's linked to its index in the color palette. This allows you to easily change colors and palettes and these changes will apply to any glyphs using that color index.
 * You can replace color palettes with the dropdown menu. There are several predefined palettes you can choose from.
@@ -270,6 +272,7 @@ With Glyph Drawing Club you can actually use any font you like!
   * Your browser might be outdated. Update your operating system and download the newest version of Chrome or Firefox (or your preferred modern browser)
 * Glyphdrawing.club keeps crashing
 
-  * That's unfortunate and is probably a bug! Please send me an email at hlotvonen@gmail.com describing your problem and check your console if there are any errors (Ctrl+Shift+J on Windows or Ctrl+Option+J on Mac).
+  * Check if your file is 5Mb in size. 5Mb is the current limit for the files, and bigger ones will crash Glyph Drawing Club.
+  * If it's something else, it's probably another bug. Please send me an email at hlotvonen@gmail.com describing your problem and check your console if there are any errors (Ctrl+Shift+J on Windows or Ctrl+Option+J on Mac).
 
-If you have any questions, let me know! I answer quickest though my instagram (link on sidebar), and slightly less quick though email (link on sidebar). Happy drawing!
+If you have any questions, best place to ask is Glyph Drawing Club discord: <https://discord.gg/gJNDZ2M> but you can also send me a message on instagram or email (links in the sidebar). Happy drawing!
