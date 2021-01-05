@@ -16,7 +16,7 @@ class Footer extends Component {
         <a
           href="https://glyphdrawing.club/"
           alt="GlyphDrawing.Club"
-          title="GlyphDrawing.Club"
+          rel="noreferrer noopener"
           target="_blank"
         >
           <button>Open GlyphDrawing.Club &#8599;</button>

@@ -25,6 +25,11 @@ const config = {
       iconClassName: "fa fa-github"
     },
     {
+      label: "Discord",
+      url: "https://discord.gg/gJNDZ2M",
+      iconClassName: "fa fa-envelope"
+    },
+    {
       label: "Instagram",
       url: "https://instagram.com/heikkiveikko",
       iconClassName: "fa fa-instagram"
@@ -33,10 +38,10 @@ const config = {
       label: "Email",
       url: "mailto:hlotvonen@gmail.com",
       iconClassName: "fa fa-envelope"
-    }
+    },
   ],
   copyright:
-    "Anti-Copyright! Reprint freely, in any manner desired, even without naming the source.", // Copyright string for the footer of the website and RSS feed.
+    "MIT License", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#000000", // Used for setting manifest and progress theme colors.
   backgroundColor: "#000000" // Used for setting manifest background color.
 };

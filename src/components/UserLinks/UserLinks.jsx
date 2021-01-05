@@ -7,15 +7,18 @@ class UserLinks extends Component {
     const { labeled } = this.props;
     return userLinks.map((link) => (
       <div key={link.label}>
-        <a href={link.url}>
+        <a href={link.url} target="_blank" rel="noreferrer noopener">
           <button type="button">{labeled ? link.label : ""}</button> —
           {link.label === "GitHub"
             ? "it's open source!"
+            : link.label === "Discord"
+            ? "join the GDC community"
             : link.label === "Instagram"
             ? "lots of examples"
             : link.label === "Email"
             ? "contact me for questions or work"
-            : ""}
+            : ""
+          }
         </a>
       </div>
     ));

@@ -17,12 +17,12 @@ class SideBar extends Component {
             <a
               href="https://glyphdrawing.club/"
               alt="GlyphDrawing.Club"
-              title="GlyphDrawing.Club"
               target="_blank"
+              rel="noreferrer noopener"
             >
               GlyphDrawing.Club
             </a>{" "}
-            is a contemporary text art & modular design tool.
+            is a contemporary text art & modular design tool developed by <a href="https://heikkilotvonen.com" target="_blank" rel="noreferrer noopener" >Heikki Lotvonen</a>.
           </p>
           <p>
             This blog is dedicated to all things GDC, modular design, ASCII art
@@ -32,8 +32,8 @@ class SideBar extends Component {
             <a
               href="https://glyphdrawing.club/"
               alt="GlyphDrawing.Club"
-              title="GlyphDrawing.Club"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <button>Open GlyphDrawing.Club &#8599;</button>
             </a>

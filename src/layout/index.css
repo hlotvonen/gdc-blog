@@ -21,17 +21,16 @@ body {
   letter-spacing: 1px;
   line-height: 1.2em;
   color: #c8c8c8;
-  font-smooth: never;
-  -webkit-font-smoothing: none;
 }
 
 a:link {
-  color: white;
+  color:#eee;
   text-decoration: none;
 }
 a:visited {
-  color: white;
+  color: #eee;
 }
+
 
 h1 {
   font-size: 2em;
@@ -40,6 +39,8 @@ h1 {
   letter-spacing: -0.2px;
   font-family: "BioRhyme", serif;
   line-height: 1.2em;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
 }
 
 p {
@@ -95,6 +96,10 @@ main {
 }
 
 @media (max-width: 800px) {
+  body {
+    font-size:14px;
+    hyphens: auto;
+  }
   .main-container {
     flex-direction: column-reverse;
   }

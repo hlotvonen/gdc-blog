@@ -12,7 +12,6 @@
 }
 .listing-image img {
   width: 100%;
-  border: 0.5rem solid #ec9c04;
 }
 .listing-text {
   display: flex;

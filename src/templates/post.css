@@ -59,6 +59,7 @@ article h2#alt-h2 {
   border-bottom: 1px solid #555;
 }
 article a:link {
+  color:#ec9c04;
   text-decoration-line: underline;
   text-decoration-style: dotted;
   text-decoration-color: #555;
@@ -70,6 +71,7 @@ article a:link.anchor {
   text-decoration: none;
 }
 article a:visited {
+  color:#ec9c04;
   text-decoration-color: #555;
 }
 article .anchor svg {
@@ -132,22 +134,10 @@ code.language-text {
   -webkit-user-select: none;
   user-select: none;
   background: rgb(250, 250, 250);
-  background: -moz-linear-gradient(top, rgb(210, 210, 210), rgb(255, 255, 255));
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgb(210, 210, 210)),
-    to(rgb(255, 255, 255))
-  );
-  color: rgb(50, 50, 50);
-  -moz-box-shadow: inset 0 0 1px rgb(255, 255, 255),
-    inset 0 0 0.4em rgb(200, 200, 200), 0 0.1em 0 rgb(130, 130, 130),
-    0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9);
-  -webkit-box-shadow: inset 0 0 1px rgb(255, 255, 255),
-    inset 0 0 0.4em rgb(200, 200, 200), 0 0.1em 0 rgb(130, 130, 130),
-    0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9);
-  box-shadow: inset 0 0 1px rgb(255, 255, 255),
-    inset 0 0 0.4em rgb(200, 200, 200), 0 0.1em 0 rgb(130, 130, 130),
-    0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9);
+  background: -moz-linear-gradient(top, rgb(30, 30, 30), rgb(115, 114, 106));
+  background: -webkit-gradient( linear, left top, left bottom, from(rgb(30 30 30)), to(rgb(115 114 106)) );
+  color: #c8c8c8;
+  -moz-box-shadow: inset 0 0 1px rgb(183 182 134), inset 0 0 0.4em rgb(193 189 97), 0 0.1em 0 rgb(130, 130, 130), 0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: inset 0 0 1px rgb(183 182 134), inset 0 0 0.4em rgb(193 189 97), 0 0.1em 0 rgb(130, 130, 130), 0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9);
+  box-shadow: inset 0 0 1px rgb(183 182 134), inset 0 0 0.4em rgb(193 189 97), 0 0.1em 0 rgb(130, 130, 130), 0 0.11em 0 rgba(0, 0, 0, 0.4), 0 0.1em 0.11em rgba(0, 0, 0, 0.9);
 }
