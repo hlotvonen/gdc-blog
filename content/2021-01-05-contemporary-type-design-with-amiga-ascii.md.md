@@ -6,7 +6,7 @@ slug: contemporary-type-design-with-amiga-ascii
 category: tutorial
 tags:
   - ascii&ansi fonts
-  - type design
+  - typedesign
 ---
 My favourite source of type design inspiration is to browse Amiga ASCII archives at [asciiarena](http://www.asciiarena.se/) and [16colo.rs](https://16colo.rs/). In those archives there is just an endless amount of really wild but mostly well made lettering and logos, and the strangest thing is that they are mostly made by teenagers in the 90's! 
 
@@ -34,9 +34,11 @@ If you want to do the same or test the font, follow the small technical tutorial
 2. Open Illustrator, create a new text box and paste the ASCII into it. 
 3. Download & install TesseraeTopaz8x16 font from [here](https://drive.google.com/file/d/1RUj1nNT8RXK3c31VioMmV4yX0U8OXcIL/view?usp=sharing). 
 4. Change the font into TesseraeTopaz8x16. Make sure in your paragraph styles the line height is the same as font size and there's no kerning values or other offsets / shifts. 
-5. Select the text box, and go to `Type -> Create Outlines`.
+5. Select the text box, and go to `Type -> Create Outlines`. If you get weird subpixel shifts when outlining, just scale the font super big, then outline, then scale back to desired size.
 6. Select everything & merge the paths from Pathfinder. If you want a "filled" version, and not outlined version, just ungroup the vectors, select the outer path and delete it. Now you should have a smooth vectorized version of your ASCII drawing!
 
 *Note:*
 
-I've added several ligatures and made some "text art" modifications to the TesseraeTopaz8x16 font. For example letters `h, y, k, t, Y, X, v, V, i, l, z, Z` are heavily modified to allow continuous shapes. Ligatures such as `._` and `_.`  makes underscore 150% times it's width so it lines up with the `|` symbol below it, et cetera. Test how the font behaves by switching between the original Topaz to TesseraeTopaz! 
+I've added several ligatures and made some "text art" modifications to the TesseraeTopaz8x16 font. For example letters `h, y, k, t, Y, X, v, V, i, l, z, Z` are heavily modified to allow continuous shapes. Ligatures such as `._` and `_.`  makes underscore 150% times it's width so it lines up with the `|` symbol below it, et cetera. Test how the font behaves by switching between the original Topaz to TesseraeTopaz! Check some of the font's features below:
+
+![Black is original Amiga ASCII font, below that in orange is the "TesseraeTopaz" font with a wide variety of helpful ligatures.](assets/topazArtboard 1.png "Black is original Amiga ASCII font, below that in orange is the \"TesseraeTopaz\" font with a wide variety of helpful ligatures.")
