@@ -7,6 +7,8 @@ category: editor
 tags:
   - ascii&ansi fonts
 ---
+**UPDATE 19.03.2021: There's a few quality of life upgrades to both Fontraption and Moebius, so this guide is a bit outdated. I'll update it when I manage to get a bug free build of Moebius working :)**
+
 Ever since I started making ASCII a few years back with [PabloDraw](http://picoe.ca/products/pablodraw/) I wished that I could modify the fonts or use other fonts than the "standard" IBM PC or Amiga fonts, just to make some small modifcations to the letters or shapes, or to create entirely new text art fonts. 
 
 ![ANSI with modified font: The Core by Raider (Shade) https://16colo.rs/pack/shade5/RD-CORE1.XB](assets/RD-CORE1.XB.png "ANSI with modified font: The Core by Raider (Shade) https://16colo.rs/pack/shade5/RD-CORE1.XB")
@@ -17,7 +19,7 @@ On top of modified fonts, there are also thousands of interesting oldschool bitm
 
 My main problem was that modern GUI based ASCII and ANSI editors such as PabloDraw don't have the possibility to load or modify fonts. Fortunately, last year [Andy Herbert](https://github.com/andyherbert) published Moebius, an **amazing** ANSI & ASCII editor made with modern day javascript. While the official version also doesn't have support for "non-standard" ASCII or ANSI fonts, it's [open source](https://github.com/blocktronics/moebius), which meant that I could add support for custom fonts myself. 
 
-![Character set from "fire's cool! yeah!" by "agent_42" https://16colo.rs/pack/cia-50-a/42_FIRE.ADF](assets/Screen Shot 2020-03-10 at 19.27.20.png "Character set from \"fire's cool! yeah!\" by \"agent_42\" https://16colo.rs/pack/cia-50-a/42_FIRE.ADF")
+![Character set from "fire's cool! yeah!" by "agent_42" https://16colo.rs/pack/cia-50-a/42_FIRE.ADF](assets/Screen Shot 2020-03-10 at 19.27.20.png "Character set from \\"fire's cool! yeah!\\" by \\"agent_42\\" https://16colo.rs/pack/cia-50-a/42_FIRE.ADF")
 
 Below are the download links to the modified Moebius application with custom font support, so if you want to create ASCII or ANSI art with your own custom made bitmap font or with one of the hundreds of fonts from [VileR's Ultimate Oldschool PC Font Pack](https://int10h.org/blog/2016/01/the-ultimate-oldschool-pc-font-pack-v10/), you can do it with this version:
 
