@@ -23,9 +23,11 @@ Images exported as SVG from Glyph Drawing Club are a bit messy, but cleaning up 
 
 ![The precision number should be left at default](assets/cleanup4.png "The precision number should be left at default")
 
-* Click Merge (make sure all paths are selected) and close Pathfinder window
+* Click Merge (make sure all paths are selected) **TWICE** and then close Pathfinder window
 
-![Click the merge button!](assets/cleanup5.png "Click the merge button!")
+![Click the merge button twice!](assets/cleanup5.png "Click the merge button twice!")
+
+## Make the background transparent (optional)
 
 * Click off canvas, and select the Direct Selection Tool (`A`)
 * Click on any white area, and go to Select -> Same -> Fill Color
@@ -33,12 +35,6 @@ Images exported as SVG from Glyph Drawing Club are a bit messy, but cleaning up 
 ![This selects all shapes that have white fill color](assets/cleanup4-1.png "This selects all shapes that have white fill color")
 
 * Hit `delete` or `backspace`
-* Click on any stray paths with Direct Selection Tool (`A`)
-
-![These stray paths are sometimes hard to see... zoom in to find them.](assets/cleanup6.png "These stray paths are sometimes hard to see... zoom in to find them.")
-
-* Go to Select -> Same -> Appearance 
-* Hit delete or backspace
 
 ![She's a happy clean dog now](assets/cleanup7.png "She's a happy clean dog now")
 
