@@ -82,6 +82,10 @@ Another big feature of MoebiusXBIN is the support for custom colors.
 
 ![Shattered logo of the text "Core" filled with purple to light blue to pink gradient.](assets/RD-CORE1.XB.png "ANSI with modified font: The Core by Raider (Shade) https://16colo.rs/pack/shade5/RD-CORE1.XB")
 
+![Light blue logotype "angelgirl" with small wings on the sides](assets/angelgirl2.png "Drawn with TES-GIGR font")
+
+![ASCII logo of Glyph Drawing Club](assets/GDC.png "Drawn with TES-GIGR font")
+
 ![Moltres pokemon spreading its wings and looking menacing.](assets/moltres.png "Moltres drawn with 8x8px font CHUNKY by Batfeula (https://batfeula.itch.io/chunky) and custom colors")
 
 ![ASCII drawing of Magmar pokemon](assets/magmar.png "Magmar drawn with TES-SYMB5 font and custom colors")
