@@ -9,7 +9,7 @@ tags:
 ---
 **UPDATE 06.12.2021: I've released a new version of Moebius XBIN! This guide is completely rewritten for it.**
 
-![ANSI with modified font: The Core by Raider (Shade) https://16colo.rs/pack/shade5/RD-CORE1.XB](assets/RD-CORE1.XB.png "ANSI with modified font: The Core by Raider (Shade) https://16colo.rs/pack/shade5/RD-CORE1.XB")
+![User interface of MoebiusXBIN, monochrome ASCII drawing of a spaceship.](assets/Screenshot 2021-12-07 at 13.31.25.png "Spaceship drawn using TES-SYMB5 custom font in MoebiusXBIN.")
 
 # Introduction
 
@@ -77,6 +77,26 @@ Another big feature of MoebiusXBIN is the support for custom colors.
 * Special thanks to LMN for creating the MoebiusXBIN splash screen!
 * Special thanks to [jejacks0n](https://github.com/blocktronics/moebius/pull/198) for adding support for custom colors!
 * And of course, special thanks to Andy Herbert for creating Moebius and all the other contributors!
+
+# Examples
+
+![Shattered logo of the text "Core" filled with purple to light blue to pink gradient.](assets/RD-CORE1.XB.png "ANSI with modified font: The Core by Raider (Shade) https://16colo.rs/pack/shade5/RD-CORE1.XB")
+
+![Moltres pokemon spreading its wings and looking menacing.](assets/moltres.png "Moltres drawn with 8x8px font CHUNKY by Batfeula (https://batfeula.itch.io/chunky) and custom colors")
+
+![ASCII drawing of Magmar pokemon](assets/magmar.png "Magmar drawn with TES-SYMB5 font and custom colors")
+
+![ASCII drawing of Ponyta pokemon](assets/ponyta3.png "Ponyta drawn with TES-SYMB5 font and custom colors")
+
+![Monochrome ASCII drawing of a house](assets/HOUSE_positive.png "House drawn with TES-SYMB5 font")
+
+![ASCII drawing of a temple](assets/TEMPLE.png "Temple at Lonar Lake drawn with TES-SYMB5 font")
+
+![ASCII art animation of a fox jumping into snow](assets/fox_whitebg.gif "ASCII animation created by the students at KADK VisCom. Each frame is drawn by a different student using the TES-SYMB5 font")
+
+![ASCII drawing with a close-up of hands from the painting "The Creation of Adam" with a computer monitor in the background with a crypto market graph and words "Buy" and "Sell"](assets/touchofgod_valkoinen_vaaka.png "Drawn using the TOPAZ437 font")
+
+![ASCII drawing depicting a closeup of a man in a suit with their hand on their chest.](assets/pankkiiri_valkoinen_nelio.png "Drawn using the TOPAZ437 font")
 
 # Endnote
 
