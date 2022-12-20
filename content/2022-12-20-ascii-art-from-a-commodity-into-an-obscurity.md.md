@@ -1,7 +1,7 @@
 ---
 title: 'ASCII art: From a Commodity Into an Obscurity'
 date: 2022-12-20T12:58:36.335Z
-cover: assets/ascii-essay-cover.png
+cover: assets/tutorial-cover.png
 slug: ascii-art-from-a-commodity-into-an-obscurity
 category: essay
 tags:
